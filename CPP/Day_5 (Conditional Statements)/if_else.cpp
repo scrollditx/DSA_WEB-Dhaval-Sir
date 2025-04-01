@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main ()
+int main()
 {
     int age = 10;
 
@@ -16,6 +16,6 @@ int main ()
     {
         cout << "You can't vote";
     }
-    
+
     return 0;
 }
