@@ -8,11 +8,23 @@ int main()
     cout << "Enter marks (0-100): ";
     cin >> marks;
 
-    if (marks <= 100)
+    if (marks >= 0 && marks <= 100)
     {
-        if (marks >= 40)
+        if (marks >= 90)
         {
-            cout << "You Passed";
+            cout << "Grade: A";
+        }
+        else if (marks >= 80)
+        {
+            cout << "Grade: B";
+        }
+        else if (marks >= 60)
+        {
+            cout << "Grade: C";
+        }
+        else if (marks >= 40)
+        {
+            cout << "Grade: D";
         }
         else
         {
